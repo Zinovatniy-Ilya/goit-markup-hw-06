@@ -38,15 +38,15 @@
         </nav>
     </header>
     <main class="link">
-        <!--hero-->
-        <section class="hero">
-            <div class="hero-2">
-                <h1 class="efect-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-                <div class="button-centered" data-modal-open>
-                    <button class="button-hero">Заказать услугу</button>
+            <!--hero-->
+            <section class="hero">
+                <div class="hero-2">
+                    <h1 class="efect-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+                    <div class="button-centered" data-modal-open>
+                        <button class="button-hero">Заказать услугу</button>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
             <!--иконки-->
             <section class="icon-section">
                 <div class="container">
@@ -339,14 +339,14 @@
                 <h3 class="subtitle-text">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
                 <div style="display:flex;">
                     <form>
-                        <input class="form-footer" type="email" name="email" id="email" placeholder="E-mail">
+                        <input class="form-footer" style="color:#FFFFFF" type="email" name="email" id="email" placeholder="E-mail">
                     </form>
                     <a href="" class="button">подписаться</a>
                 </div>
             </div>
         </div>
     </footer>
-    <div class="backdrop " data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <div class="modal-end" data-modal-close>
                 <svg class="icon-modal" style="width: 10px; height:10px;">
@@ -366,6 +366,16 @@
                 <div class="form-section">
                     <label for="email">Почта</label>
                     <input type="email" name="email" id="email" class="form">
+                </div>
+                <div>
+                    <label for="coment">Комментарий</label>
+                    <input type="text" name="coment" id="coment" placeholder="Введите текст" class="form-coment">
+                </div>
+                <div style="display: flex; align-items: center; border-radius: 2px;">
+                    <input type="checkbox" name="checkbox"><p class="text-checkbox">Соглашаюсь с рассылкой и принимаю <a href="" class="link-checkbox">Условия договора</a></p>
+                </div>
+                <div>
+                    <button class="form-button">Отправить</button>
                 </div>
             </form>
         </div>
